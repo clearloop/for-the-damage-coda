@@ -1,0 +1,5 @@
+[book]
+authors = ["Mercury"]
+multilingual = false
+src = "src"
+title = "Specification"
