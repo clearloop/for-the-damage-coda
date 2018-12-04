@@ -1,0 +1,8 @@
+# Runtime System
+A runtime system, also called run-time system, primarily __implements portions of an execution model.__ This is in contrast to the runtime lifecycle phase of a program, during which the runtime system is in operation. Most languages have some form of runtime system, which implements control over the order in which work that was specified in terms of the language gets performed. Over the years, the meaning of the term 'runtime system' has been expanded to include nearly any behaviors that are dynamically determined during execution.
+
+## Implementation details
+When a program is to be executed, a __loader__ first performs the necessary memory setup and __links__ the program with any dynamically linked libraries it needs, and then the execution begins starting from the program's entry point. In some cases, a language or implementation will have these tasks done by the language runtime instead, though this is unusual in mainstream languages on common consumer operating systems.
+
+## Runtime library
+In computer programming, a runtime library (RTL) is __a set of low-level routines used by a compiler to invoke some of the behaviors of a runtime environment, by inserting calls to the runtime library into compiled executable binary.__ The runtime environment implements the execution model, built-in functions, and other fundamental behaviors of a programming language. During execution (run time) of that computer program, execution of those calls to the runtime library cause communication between the executable binary and the runtime environment. A runtime library often includes built-in functions for memory management or exception handling. Therefore, a runtime library is always specific to the platform and compiler.
