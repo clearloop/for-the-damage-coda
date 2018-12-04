@@ -9,17 +9,17 @@ curl https://sh.rustup.rs -sSf | sh
 # install mdbook
 cargo install mdbook
 
-# example - serve
-cd /path/to/execution && mdbook serve
+# serve
+sh serve.sh
 ```
 
-## Execution
-
-+ [Preprocessor](./execution/preprocessor.md)
-+ [Compiler](./execution/compiler.md)
-+ [Link-Loader](./execution/linker-loader.md)
-+ [Execution](./execution/execution.md)
-  + [Runtime System](./execution/runtime-system.md)
-  + [Virtual Machine](./execution/vm.md)
+## [Execution](./execution/src/preprocessor.md)
++ [Introduction](./execution/src/introduction.md)
++ [Preprocessor](./execution/src/preprocessor.md)
++ [Compiler](./execution/src/compiler.md)
++ [Link-Loader](./execution/src/linker-loader.md)
++ [Execution](./execution/src/execution.md)
+  + [Runtime System](./execution/src/runtime-system.md)
+  + [Virtual Machine](./execution/src/vm.md)
 
 ## Program Interaction
