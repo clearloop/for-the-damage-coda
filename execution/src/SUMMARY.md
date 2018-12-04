@@ -6,4 +6,4 @@
 - [Linker-Loader](./linker-loader.md)
 - [Execution](./execution.md)
   - [Runtime System](./runtime-system.md)
-  - [Virtual Machine](./vm.md)
+  - [Virtual Machine](./virtual-machine.md)
