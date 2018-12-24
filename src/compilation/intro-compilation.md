@@ -1,5 +1,4 @@
-# Introduction
-From the damage coda.
+# Compilation
 
 ## [Preprocessor](./preprocessor.md)
 In computer science, a preprocessor is a program that processes its input data to produce output that is used as input to another program.
